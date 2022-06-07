@@ -1,0 +1,17 @@
+	(1)	(2)	(3)	(4)	(5)	(6)	(7)	(8)	(9)	(10)
+VARIABLES	DEPS_lowoilPrice	DEPS_highoilPrice	DEPS_lowgasPrice	DEPS_highgasPrice	DEPS_lowyrcurnt	DEPS_highyrcurnt	DEPS_lowenergysh	DEPS_highenergysh	DEPS_lowinitialEPS	DEPS_highinitialEPS
+										
+LOW_instrument	-0.0000002		0.0000006		0.0000000***		0.0000002***		0.0000001	
+	(0.000)		(0.000)		(0.000)		(0.000)		(0.000)	
+HIGH_instrument		0.0000002***		0.0000001***		0.0000000***		0.0000002***		0.0000002***
+		(0.000)		(0.000)		(0.000)		(0.000)		(0.000)
+										
+Observations	370	370	370	370	329	329	370	370	366	366
+TIME FE	YES	YES	YES	YES	YES	YES	YES	YES	YES	YES
+UNIT FE	YES	YES	YES	YES	YES	YES	YES	YES	YES	YES
+TYPE	LOW	HIGH	LOW	HIGH	LOW	HIGH	LOW	HIGH	LOW	HIGH
+INSTRUMENT	peopleAffectEQ_urbanCoastLOG	peopleAffectEQ_urbanCoastLOG	peopleAffectEQ_urbanCoastLOG	peopleAffectEQ_urbanCoastLOG	eventsFlood_coastLengthWRI	eventsFlood_coastLengthWRI	peopleAffectEQ_urbanCoastLOG	peopleAffectEQ_urbanCoastLOG	peopleAffectEQ_urbanCoastLOG	peopleAffectEQ_urbanCoastLOG
+FStat low	.8062529761145123		2.52293598047978		14.43684717236185		18.09687724469704		1.630950054875817	
+FStat high		17.83940475694682		12.8172888018059		42.17787696699408		9.84567474087047		25.16624567070282
+Robust standard errors in parentheses										
+*** p<0.01, ** p<0.05, * p<0.1										

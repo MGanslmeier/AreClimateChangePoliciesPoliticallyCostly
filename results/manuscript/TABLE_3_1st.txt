@@ -1,0 +1,20 @@
+	(1)	(2)	(3)	(4)
+VARIABLES	D.EPS	D.EPS	D.EPS	D.EPS
+				
+eventsFlood_coastLengthWRI	0.0031112***			
+	(0.001)			
+peopleAffectEQ_urbanCoastLOG		0.0163511***		
+		(0.004)		
+majorHurric_cenDist			-7.5516985***	
+			(1.165)	
+eventsWildfire_agriLandPC				9.5802808***
+				(2.542)
+				
+Observations	370	370	370	361
+INSTRUMENT	eventsFlood_coastLengthWRI	peopleAffectEQ_urbanCoastLOG	majorHurric_cenDist	eventsWildfire_agriLandPC
+FStat	30.78572444785452	14.98476979605109	42.04804531312962	14.2064000808554
+TIME FE	YES	YES	YES	YES
+UNIT FE	YES	YES	YES	YES
+MULTIPLIED	100000	100000	100000	100000
+Robust standard errors in parentheses				
+*** p<0.01, ** p<0.05, * p<0.1				

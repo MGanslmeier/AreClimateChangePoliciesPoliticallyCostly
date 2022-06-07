@@ -1,0 +1,16 @@
+	(1)	(2)	(3)	(4)	(5)
+VARIABLES	D_Popularsupport	D_Popularsupport	D_Popularsupport	D_Popularsupport	D_Popularsupport
+					
+D.EPS	-0.976**	-1.555***	-1.388***	-0.963***	-0.966***
+	(0.405)	(0.433)	(0.396)	(0.320)	(0.368)
+					
+Observations	370	357	357	370	370
+INSTRUMENT	eventsFlood_coastLengthWRI	eventsFlood_coastLengthWRI	eventsFlood_coastLengthWRI	eventsFlood_coastLengthWRI	eventsFlood_coastLengthWRI
+FStat	26.36386044328102	23.46100075636113	18.37847166043599	29.45454245874992	28.16838554375928
+TIME FE	YES	YES	YES	YES	YES
+UNIT FE	YES	YES	YES	YES	YES
+CORRELATE of global term	GlobKOF_total	conindex_global	riot_global		
+ADDITIONAL interaction term					GlobKOF_total##logpop
+CORRELATE of country term				logpop	
+Robust standard errors in parentheses					
+*** p<0.01, ** p<0.05, * p<0.1					

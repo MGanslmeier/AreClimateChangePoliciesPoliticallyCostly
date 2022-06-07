@@ -1,0 +1,61 @@
+	(1)	(2)	(3)	(4)	(5)	(6)	(7)	(8)	(9)	(10)	(11)	(12)	(13)	(14)	(15)	(16)	(17)	(18)	(19)	(20)	(21)	(22)	(23)	(24)
+VARIABLES	D_Popularsupport	D_Popularsupport	D_Popularsupport	D_Popularsupport	D_Popularsupport	D_Popularsupport	D_Popularsupport	D_Popularsupport	D_Popularsupport	D_Popularsupport	D_Popularsupport	D_Popularsupport	D_Popularsupport	D_Popularsupport	D_Popularsupport	D_Popularsupport	D_Popularsupport	D_Popularsupport	D_Popularsupport	D_Popularsupport	D_Popularsupport	D_Popularsupport	D_Popularsupport	D_Popularsupport
+																								
+DEPS_lowginiMRKT	1.454																							
+	(1.876)																							
+DEPS_highginiMRKT		-4.569***																						
+		(1.757)																						
+DEPS_lowginiNET			4.748																					
+			(3.315)																					
+DEPS_highginiNET				-3.343***																				
+				(0.852)																				
+DEPS_lowtop1share					13.098																			
+					(16.554)																			
+DEPS_hightop1share						-3.495***																		
+						(0.561)																		
+DEPS_lowtop10share							11.496																	
+							(14.939)																	
+DEPS_hightop10share								-4.482***																
+								(0.862)																
+DEPS_lowtop20share									7.378															
+									(7.012)															
+DEPS_hightop20share										-5.500***														
+										(1.546)														
+DEPS_lowbot1share											-2.051**													
+											(0.837)													
+DEPS_highbot1share												-0.458												
+												(0.577)												
+DEPS_lowbot10share													-2.643**											
+													(1.197)											
+DEPS_highbot10share														0.707										
+														(2.046)										
+DEPS_lowbot20share															-4.291***									
+															(1.112)									
+DEPS_highbot20share																4.840								
+																(3.334)								
+DEPS_lowsbCASH																	-0.938**							
+																	(0.415)							
+DEPS_highsbCASH																		-0.630						
+																		(1.063)						
+DEPS_lowsbKIND																			-1.051**					
+																			(0.430)					
+DEPS_highsbKIND																				-0.632				
+																				(1.759)				
+DEPS_lowalmpExp																					-1.863*			
+																					(1.037)			
+DEPS_highalmpExp																						10.620		
+																						(21.066)		
+DEPS_lowunempExp																							-1.860**	
+																							(0.834)	
+DEPS_highunempExp																								-15.330
+																								(12.759)
+																								
+Observations	326	326	326	326	301	301	301	301	301	301	259	259	301	301	301	301	370	370	340	340	334	334	321	321
+TIME FE	YES	YES	YES	YES	YES	YES	YES	YES	YES	YES	YES	YES	YES	YES	YES	YES	YES	YES	YES	YES	YES	YES	YES	YES
+UNIT FE	YES	YES	YES	YES	YES	YES	YES	YES	YES	YES	YES	YES	YES	YES	YES	YES	YES	YES	YES	YES	YES	YES	YES	YES
+TYPE	LOW	HIGH	LOW	HIGH	LOW	HIGH	LOW	HIGH	LOW	HIGH	LOW	HIGH	LOW	HIGH	LOW	HIGH	LOW	HIGH	LOW	HIGH	LOW	HIGH	LOW	HIGH
+INSTRUMENT	eventsFlood_coastLengthWRI	eventsFlood_coastLengthWRI	eventsFlood_coastLengthWRI	eventsFlood_coastLengthWRI	eventsFlood_coastLengthWRI	eventsFlood_coastLengthWRI	eventsFlood_coastLengthWRI	eventsFlood_coastLengthWRI	eventsFlood_coastLengthWRI	eventsFlood_coastLengthWRI	eventsFlood_coastLengthWRI	eventsFlood_coastLengthWRI	eventsFlood_coastLengthWRI	eventsFlood_coastLengthWRI	eventsFlood_coastLengthWRI	eventsFlood_coastLengthWRI	peopleAffectEQ_urbanCoastLOG	peopleAffectEQ_urbanCoastLOG	peopleAffectEQ_urbanCoastLOG	peopleAffectEQ_urbanCoastLOG	eventsFlood_coastLengthWRI	eventsFlood_coastLengthWRI	eventsFlood_coastLengthWRI	eventsFlood_coastLengthWRI
+FStat low	9.766223460694485		8.49662674114688		.5247054851144409		.4268111180291795		.7125020796142578		8.42002619418081		25.02108491517174		24.81594089502513		66.97886888631297		109.9896153547519		76.25821083481448		36.28068486955206	
+FStat high		6.926638835617291		29.19991525193869		73.36298940684357		30.61358405772948		17.64617785501932		29.83770921534058		1.139893388981866		1.021955287409156		2.934071824670561		1.798924950837868		.3792668989642645		1.175484197382707
+Robust standard errors in parentheses																								
+*** p<0.01, ** p<0.05, * p<0.1																								

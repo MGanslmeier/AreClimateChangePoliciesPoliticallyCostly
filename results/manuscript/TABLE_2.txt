@@ -1,0 +1,39 @@
+	(1)	(2)	(3)	(4)	(5)	(6)
+VARIABLES	D_Popularsupport	D_Popularsupport	D_Popularsupport	D_Popularsupport	D_Popularsupport	D_Popularsupport
+						
+D.EPS	-0.231***	-0.246***	-0.247***	-0.266***	-0.305***	-0.297***
+	(0.079)	(0.079)	(0.080)	(0.086)	(0.091)	(0.092)
+deficit_oecd	0.039***	0.028*	0.027*	0.025	0.016	0.015
+	(0.014)	(0.015)	(0.015)	(0.017)	(0.014)	(0.015)
+elderly_oecd	0.163***	0.177***	0.194***	0.172**	0.125	0.095
+	(0.051)	(0.055)	(0.063)	(0.069)	(0.089)	(0.090)
+gdpr_wb	0.063**	0.047	0.051	0.048	0.035	0.036
+	(0.029)	(0.030)	(0.031)	(0.033)	(0.026)	(0.028)
+unemprate_wb		-0.035**	-0.033*	-0.028	-0.050**	-0.057**
+		(0.017)	(0.018)	(0.022)	(0.020)	(0.025)
+cpi_full_oecd			0.299	0.233	0.094	0.342
+			(0.309)	(0.314)	(1.016)	(1.172)
+voteshare				0.010*	-0.003	-0.003
+				(0.005)	(0.006)	(0.007)
+wedge2					-0.071	-0.059
+					(0.044)	(0.049)
+finref_index_ref						0.806
+						(1.929)
+product_index_ref						-0.167
+						(0.743)
+current_index_ref						-1.437
+						(1.300)
+capital_index_ref						1.485
+						(1.507)
+labor_index_ref						0.854
+						(1.732)
+Constant	0.659	0.724	0.281	0.628	3.050	1.868
+	(0.624)	(0.673)	(0.924)	(1.010)	(1.910)	(2.846)
+						
+Observations	370	370	370	326	260	260
+R-squared	0.455	0.466	0.468	0.464	0.548	0.554
+Number of ISO_ID	30	30	30	26	23	23
+TIME FE	YES	YES	YES	YES	YES	YES
+UNIT FE	YES	YES	YES	YES	YES	YES
+Robust standard errors in parentheses						
+*** p<0.01, ** p<0.05, * p<0.1						

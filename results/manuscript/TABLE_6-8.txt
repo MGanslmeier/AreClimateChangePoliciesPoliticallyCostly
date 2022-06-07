@@ -1,0 +1,68 @@
+	(1)	(2)	(3)	(4)	(5)	(6)	(7)	(8)	(9)	(10)	(11)	(12)
+VARIABLES	D_Popularsupport	D_Popularsupport	D_Popularsupport	D_Popularsupport	D_Popularsupport	D_Popularsupport	D_Popularsupport	D_Popularsupport	D_Popularsupport	D_Popularsupport	D_Popularsupport	D_Popularsupport
+												
+deficit_oecd	0.038***	0.039***	0.040***	0.040***	0.040***	0.034***	0.039***	0.040***	0.041***	0.039***	0.033**	0.034***
+	(0.014)	(0.014)	(0.014)	(0.014)	(0.014)	(0.013)	(0.014)	(0.014)	(0.014)	(0.012)	(0.014)	(0.013)
+elderly_oecd	0.099	0.103	0.142**	0.144**	0.145**	0.126**	0.143**	0.147**	0.165***	0.144***	0.156**	0.171**
+	(0.094)	(0.093)	(0.058)	(0.059)	(0.059)	(0.059)	(0.058)	(0.058)	(0.051)	(0.048)	(0.062)	(0.070)
+gdpr_wb	0.057**	0.057**	0.071**	0.071**	0.071**	0.108***	0.070**	0.070**	0.065**	0.061**	0.047**	0.050*
+	(0.026)	(0.026)	(0.035)	(0.035)	(0.035)	(0.034)	(0.035)	(0.035)	(0.029)	(0.028)	(0.023)	(0.027)
+DEPS_low_giniMRKT_V1	-0.066											
+	(0.279)											
+DEPS_high_giniMRKT_V1	-0.380**											
+	(0.170)											
+DEPS_low_giniNET_V1		-0.006										
+		(0.264)										
+DEPS_high_giniNET_V1		-0.402**										
+		(0.162)										
+DEPS_low_top1share_V1			0.023									
+			(0.192)									
+DEPS_high_top1share_V1			-0.300*									
+			(0.156)									
+DEPS_low_top10share_V1				0.033								
+				(0.182)								
+DEPS_high_top10share_V1				-0.320**								
+				(0.155)								
+DEPS_low_top20share_V1					0.022							
+					(0.151)							
+DEPS_high_top20share_V1					-0.320**							
+					(0.146)							
+DEPS_low_bot1share_V1						0.010						
+						(0.264)						
+DEPS_high_bot1share_V1						-0.254						
+						(0.314)						
+DEPS_low_bot10share_V1							-0.304*					
+							(0.156)					
+DEPS_high_bot10share_V1							0.021					
+							(0.210)					
+DEPS_low_bot20share_V1								-0.352**				
+								(0.150)				
+DEPS_high_bot20share_V1								0.082				
+								(0.198)				
+DEPS_low_sbCASH_V1									-0.463***			
+									(0.164)			
+DEPS_high_sbCASH_V1									0.006			
+									(0.155)			
+DEPS_low_sbKIND_V1										-0.512**		
+										(0.247)		
+DEPS_high_sbKIND_V1										-0.053		
+										(0.146)		
+DEPS_low_almpExp_V1											-0.483***	
+											(0.158)	
+DEPS_high_almpExp_V1											0.084	
+											(0.153)	
+DEPS_low_unempExp_V1												-0.544***
+												(0.170)
+DEPS_high_unempExp_V1												0.155
+												(0.218)
+Constant	1.487	1.445	0.278	0.252	0.227	0.442	0.269	0.208	0.650	0.939	0.832	0.666
+	(1.149)	(1.139)	(0.907)	(0.912)	(0.918)	(0.928)	(0.912)	(0.907)	(0.612)	(0.576)	(0.743)	(0.827)
+												
+Observations	326	326	301	301	301	259	301	301	370	340	334	321
+R-squared	0.470	0.470	0.513	0.513	0.513	0.524	0.513	0.514	0.459	0.470	0.462	0.498
+Number of ISO_ID	30	30	24	24	24	21	24	24	30	28	27	26
+TIME FE	YES	YES	YES	YES	YES	YES	YES	YES	YES	YES	YES	YES
+UNIT FE	YES	YES	YES	YES	YES	YES	YES	YES	YES	YES	YES	YES
+Equality pval	0.442	0.301	0.297	0.235	0.176	0.633	0.331	0.164	0.0947	0.187	0.0405	0.0544
+Robust standard errors in parentheses												
+*** p<0.01, ** p<0.05, * p<0.1												
